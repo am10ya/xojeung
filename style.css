@@ -100,7 +100,7 @@ body{
 
 .layout__main{
     padding: 20px;
-    background-color:#b22222;
+    background-color:#ff8c00;
    
 }
 
@@ -135,7 +135,7 @@ body{
 .text{
   
     padding: 10px;
-    color: #ff8c00;
+    color:  #b22222;
     line-height: 30px;
 }
 
