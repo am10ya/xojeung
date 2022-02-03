@@ -96,47 +96,61 @@ q::after {
 
 
 body{
-    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;}
-
+    font-family: 'Kaiti SC',sans-serif;}
+    
 .layout__main{
     padding: 20px;
-    background-color:#ff8c00;
+    background-color:#ffffe0;
    
+}
+
+.category{
+    color: gray;
 }
 
 
 .menu{
     font-size: 30px;
-    color: white;
+    color: #8b0000;
     font-weight: bold;
+    margin-top: 10px;
     
 
 }
 .date{
     text-align: right;
     font-size: 12px;
-   
+    display: flex;
+    flex-direction: column; 
+    color: gray;
+
 }
 
-.category__tag{
-    text-align: right;
-    font-size: 12px;
-}
+
 
 .image{
-    padding: 10px;
-   
+    padding: 0px;
+    text-align: center;
+   color: gray;
 
 }
 
+h1{
+    padding: 1rem 2rem;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  margin-top: 50px;
+}
 
 
 
 .text{
+    font-size: 15px;
+    
   
     padding: 10px;
-    color:  #b22222;
-    line-height: 30px;
+    color: #8b0000;
+    line-height: 23px;
 }
 
 .texttitle{
@@ -150,13 +164,16 @@ body{
     font-size: large;
 }
 p{
- margin-bottom: 10px;
+ margin-top:30px;
+ margin-bottom: 30px;
 }
 
 .wiki{
     padding: 20px;
-    background-color: #dcdcdc;
+    background-color: white;
     color: #003300;
-    font-size: small;
+    font-size:small;
 }
+
+
 
